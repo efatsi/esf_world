@@ -5,5 +5,7 @@ class Comment < ActiveRecord::Base
   validates_format_of :email, :with => email_regex
   
   
+  
+  
 end
 
